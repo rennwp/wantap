@@ -73,19 +73,19 @@ img {
 }
 
 .support {
-    width: 120px;
-    height: 25px;
     background-color: lightblue;
     margin: auto;
+    width: fit-content;
+    padding: 5px;
 }
 
 .support a {
     text-decoration: none;
     color: blue;
+    
 }
 
 .support a:hover {
-    text-decoration: none;
     color: salmon;
 }
 
