@@ -35,6 +35,7 @@ window.addEventListener("keypress", function(){
 
 
     if(event.keyCode == "32"){
+        audio.play();
         dor.play();
         bullet = document.createElement("div");
         bullet.classList.add("bullet");
