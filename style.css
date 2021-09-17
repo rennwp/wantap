@@ -28,8 +28,7 @@ h1 {
     margin-top: 40px;
     text-align: center;
     font-size: 50px;
-    font-family: retroFont, Arial, Helvetica, sans-serif;
-    font-size: 70px;
+    font-family: retroFont, Arial, Helvetica, sans-serif
 }
 
 p {
@@ -77,10 +76,7 @@ img {
     width: 120px;
     height: 25px;
     background-color: lightblue;
-    text-decoration: none;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin: auto;
 }
 
 .support a {
