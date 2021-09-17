@@ -161,21 +161,21 @@ function onKeyUp(event) {
 // arah player
 setInterval(() => {
     if(keyA == true){
-        x -= 1;
+        x -= 2;
         player.style.left = x + "px";
     }
 },hard);
 
 setInterval(() => {
     if (keyW == true){
-        y -= 1;
+        y -= 2;
         player.style.top = y + "px";
     }
 },1);
 
 setInterval(() => {
     if (keyS == true){
-        y += 1;
+        y += 2;
         player.style.top = y + "px";
     }
 
@@ -185,7 +185,7 @@ setInterval(() => {
 
 setInterval(() => {
     if (keyD == true){
-        x += 1;
+        x += 2;
         player.style.left = x + "px";
     }
 },1);
