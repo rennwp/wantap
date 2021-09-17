@@ -1,3 +1,8 @@
+@font-face {
+    font-family: retroFont;
+    src: url(font/NEONLEDLight.ttf);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +10,7 @@
 
 body {
     background-color: salmon;
+    
 }
 
 .container {
@@ -22,7 +28,8 @@ h1 {
     margin-top: 40px;
     text-align: center;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: retroFont, Arial, Helvetica, sans-serif;
+    font-size: 70px;
 }
 
 p {
@@ -64,6 +71,30 @@ img {
     top: 0;
     left: 0;
     z-index: 9;
+}
+
+.support {
+    width: 120px;
+    height: 25px;
+    background-color: lightblue;
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.support a {
+    text-decoration: none;
+    color: blue;
+}
+
+.support a:hover {
+    text-decoration: none;
+    color: salmon;
+}
+
+.support p {
+    font-size: 18px;
 }
 
 @keyframes bullet {

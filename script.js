@@ -121,7 +121,9 @@ setInterval(() => {
     if(y >= yBox - 50 && y <= yBox + 50){
         if(x + 50 >= xBox){
             deadplayer.play()
-            alert("ur deadass, refresh the page to restart")
+            alert("ur deadass, ok to restart");
+            xBox = 800;
+            location.reload();
         }
     }
 }, 1);
